@@ -11,7 +11,7 @@
 	margin: auto;
 }
 .img {
-	border: solid #00F00F 2px;
+	border: solid #ffffff 2px;
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
@@ -101,6 +101,10 @@
 	line-height: 50px;
 	overflow: hidden;
 }
+.dd {
+	transform: rotate(90deg);
+	-webkit-animation: dd 1.5s;
+}
 .origin {
 	transform-origin:125px 125px;
 }
@@ -113,10 +117,7 @@
 .origin3 {
 	transform-origin:125px -75px;
 }
-.dd {
-	transform: rotate(90deg);
-	-webkit-animation: dd 1.5s;
-}
+
 @-webkit-keyframes dd {
 	from {
 		transform: rotate(0deg);
